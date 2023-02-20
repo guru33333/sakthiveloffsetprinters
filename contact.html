@@ -24,10 +24,8 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-	<script src="js/lightbox-plus-jquery.min.js"></script>
 	<script src="js/wow.js"></script>
 </head>
 <body itemscope itemtype="http://schema.org/WebPage">
@@ -49,9 +47,9 @@
 		</div>
 	</div>
 </div>	
-<!--header-->	
+<!--header-->
 <!--Desktop Nav-->
-<nav class="navbar navbar-expand-lg navbar-light navfont bg-white shadow fnt-500 sticky-top main d-none d-lg-block">
+<nav class="navbar navbar-expand-lg navbar-light navfont fnt-500 bg-white shadow sticky-top main d-none d-lg-block">
 	<div class="container-fluid px-lg-4">
 		<a href="index.html">
 			<img itemprop="image" src="images/sakthiveloffsetlogo.png" class="img-fluid logo" alt="Sakthivel Offset" title="Sakthivel Offset">
@@ -99,10 +97,10 @@
 					</ul>
 				</li>
 				<li class="nav-item px-2">
-					<a class="nav-link active" href="infrastructure.html">INFRASTRUCTURE</a>
+					<a class="nav-link" href="infrastructure.html">INFRASTRUCTURE</a>
 				</li>
 				<li class="nav-item px-2">
-					<a class="nav-link" href="contact.html">CONTACT</a>
+					<a class="nav-link active" href="contact.php">CONTACT</a>
 				</li>
 			</ul>
 		</div> 	
@@ -110,7 +108,7 @@
 </nav>
 <!--Desktop Nav-->
 <!--Mobile Nav-->
-<nav class="navbar navbar-expand-lg navbar-light shadow navfont bg-white sticky-top fnt-500 d-lg-none">
+<nav class="navbar navbar-expand-lg navbar-light sticky-top shadow bg-white navfont fnt-500 d-lg-none">
 	<div class="container-fluid px-lg-4">
 		<a href="index.html">
 			<img itemprop="image" src="images/sakthiveloffsetlogo.png" class="img-fluid logo" alt="Sakthivel Offset" title="Sakthivel Offset">
@@ -120,7 +118,7 @@
 		</button>
 		<div id="myNavbar" class="collapse navbar-collapse">
 			<ul class="navbar-nav ml-auto text-center text-white">
-                <li class="nav-item px-2 active">
+                <li class="nav-item px-2">
 					<a class="nav-link" href="index.html">HOME</a>
 				</li>
 				<li class="nav-item px-2">
@@ -150,7 +148,7 @@
 					<a class="nav-link" href="infrastructure.html">INFRASTRUCTURE</a>
 				</li>
 				<li class="nav-item px-2">
-					<a class="nav-link" href="contact.html">CONTACT</a>
+					<a class="nav-link active" href="contact.php">CONTACT</a>
 				</li>
 			</ul>
 		</div> 	
@@ -158,118 +156,117 @@
 </nav>
 <!--Mobile Nav-->
 <!--Banner-->
-<div class="infrastructure">
-	<div class="container pad">
+<div class="contactbg">
+	<div class="container">
 		<div class="row">
-			<div class="col-md-2"></div>
-			<div class="col-md-8 text-center banner-heading">
-				<p class="text-white roboto">Lets Work Togethar</p>
-				<h1 class="pb-2 text-white banner-font roboto fnt-700">OUR INFRASTRUCTURE</h1>
-				<p class="roboto pb-3 text-white">we have been able to establish ourselves as an illustrious manufacturer and supplier of variety of custom boxes and printed custom boxes.</p>
+			<div class="col-lg-12">
+				<div class="s-banner-text ">
+              	<h1 class="banner-font roboto">Contact Us</h1>
+                <div class="roboto">If you’d like to talk to us about a project, or anything else, we’d love to hear from you.</div>
+				</div>
 			</div>
-			<div class="col-md-2"></div>
-		</div>	
-	</div>		
+		</div>
+	</div>
 </div>
 <!--Banner-->
-<div class="container-fluid px-lg-5 pad">
-	<div class="row">
-		<div class="col-lg-12 pb-4">
-			<div class="block-title-w">
-				<h2 class="block-title text-clr1">OUR MACHINERY</h2> 
-					<span class="icon-title">
-						<span></span>
-					<i class="fa fa-star"></i>
-				</span>
-			</div>
-		</div>
-		<div class="col-lg-4 pointer zoom">
-			<a href="images/machine1.jpg" data-lightbox="mygallery" data-title="Sakthivel Offset Printers">
-				<figure><img src="images/machine1.jpg" class="img-fluid" alt="Machines" title="Machines"></figure>	
-			</a>
-		</div>
-		<div class="col-lg-4 pointer zoom">
-			<a href="images/machine1.jpg" data-lightbox="mygallery" data-title="Sakthivel Offset Printers">
-				<figure><img src="images/machine1.jpg" class="img-fluid" alt="Machines" title="Machines"></figure>	
-			</a>
-		</div>
-		<div class="col-lg-4 pointer zoom">
-			<a href="images/machine1.jpg" data-lightbox="mygallery" data-title="Sakthivel Offset Printers">
-				<figure><img src="images/machine1.jpg" class="img-fluid" alt="Machines" title="Machines"></figure>	
-			</a>
-		</div>
-		<div class="col-lg-12 py-4">
-			<div class="block-title-w">
-				<h2 class="block-title text-clr1">OUR PRODUCTS</h2> 
-					<span class="icon-title">
-						<span></span>
-					<i class="fa fa-star"></i>
-				</span>
-			</div>
-		</div>
-	</div>
+<div class="bg-light">
+    <div class="container pad">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-12">
+                <h1 class="roboto fnt-500 ">Enquiry</h1>
+      		    <div class="section-heading-line-left"></div>
+                <form class="py-2 contact-form" action="contact.php" method="POST">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-12 pt-3">
+                            <label class="roboto">Name</label>
+                            <input type="text" class="form-control roboto" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-12 pt-3">
+                            <label class="roboto">Mobile Number</label>
+                            <input type="text" class="form-control roboto" id="number" name="number"  pattern="[0-9]{10,15}" placeholder="Your Mobile Number " required>
+                        </div>	
+                        <div class="col-lg-12 col-md-12 col-12 pt-3">
+                            <label class="roboto">Email</label>
+                            <input type="email" class="form-control roboto" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-12 pt-3">
+                             <label class="roboto">Message</label>    
+                            <textarea class="form-control formheight roboto" id="message" name="message" placeholder="Your Message Here" required></textarea>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12 pt-3">
+                            <input class="roboto  w-100" type="submit" value="SUBMIT" id="send" name="send">
+                        </div>
+                    </div>	   
+				</form> 
+            </div>
+            <div class="col-lg-6 col-md-6 col-12 pt-lg-5 pl-lg-5 pt-4">
+                <div class="d-flex pb-3">
+                    <div class="cnt-icons pr-3">
+                        <i class="fa fa-location-arrow"></i>
+                    </div>
+                    <div class="icon-info">
+                        <h3 class="roboto heading4">Address</h3>
+                        <div class="roboto smallfnt">116/2, Police Station Road, <br> Rathinam Nagar, (Near Sivakasi Municipality)<br> Sivakasi - 626 123</div>
+                    </div>
+                </div>
+                <hr>
+                <div class="d-flex pb-3">
+                    <div class="cnt-icons pr-3">
+                        <i class="fa fa-phone"></i>
+                    </div>
+                    <div class="icon-info">
+                        <h3 class="roboto heading4">Call Us</h3>
+                        <div class="roboto smallfnt">(+91) 75987 55726</div>
+                    </div>
+                </div>
+                <hr>
+                <div class="d-flex pb-3">
+                    <div class="cnt-icons pr-3">
+                        <i class="fa fa-envelope"></i>
+                    </div>
+                    <div class="icon-info">
+                        <h3 class="roboto heading4">Email</h3>
+                        <div class="roboto smallfnt">sakthiveloffsetprinters@gmail.com</div>
+                    </div>
+                </div>
+                <hr>
+                <div class="d-flex pb-3">
+                    <div class="cnt-icons pr-3">
+                        <i class="fa fa-clock-o"></i>
+                    </div>
+                    <div class="icon-info">
+                        <h3 class="roboto heading4">Working Hours</h3>
+                        <div class="roboto smallfnt">Mon-Sat 10:00 - 20:00 IST</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-<div class="footer bg-overlay">
+<div class="bg-dark">
 	<div class="container">
-		<div class="row pb-5">
-			<div class="col-lg-4 footbox">
-				<h3 class="widget-title">About Us</h3>
-				<a href="index.html"> 
-					<img src="images/sakthiveloffsetlogo.png" class="img-fluid logo" alt="" title="">
-				</a>
-				<p class="roboto pt-3"> 
-					Sakthivel Offset Printers covers the full gamut of your printing needs - from company profiles to brochures and catalogues,  to calendars, and labels to luxury rigid cartons.</p>
-			</div>
-			<div class="col-lg-4 footbox footer-widget">
-				<h3 class="widget-title">Quick Links</h3>
-				<ul class="list-arrow fullpad roboto">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="popcornbox.html">Products</a></li>
-					<li><a href="infrastructure.html">Infrastructure</a></li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
-			</div>
-			<div class="col-lg-4 footbox">
-				<h3 class="widget-title">Contact Info</h3>
-				<p><i class="fa fa-map-marker"></i></p>
-				<div class="text1">
-					<div class="roboto icntxt">
-						116/2, Police Station Road, <br> Rathinam Nagar, (Near Sivakasi Municipality)<br> Sivakasi - 626 123
-					</div>
-				</div>
-				<p class="pt-3"><i class="fa fa-whatsapp"></i></p>
-				<div class="text1 icntxt roboto">
-					<a href="https://api.whatsapp.com/send?phone=917598755726" class="footclr"> 
-					+91 75987 55726</a>
-				</div>
-				<p class="pt-3"><i class="fa fa-phone"></i></p>
-				<div class="text1 icntxt roboto">
-					<div>+91 75987 55726</div>
-				</div>
-				<p class="pt-3"><i class="fa fa-envelope"></i></p>
-				<div class="text1 icntxt roboto">
-					<p>sakthiveloffsetprinters@gmail.com</p>
-				</div>
-				<div class="footer-social">
-					<ul class="fullpad">
-						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#"><i class="fa fa-instagram"></i></a></li>
-						<li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
 		<div class="row">	
-			<div class="col-lg-12 footbox text-center pt-5">
-				<ul class="fullbg">
-					<li class="roboto text-white smallfnt">Copyright &copy; 2022, Sakthivel Offset Printerss. <span class="wrdbrk">All rights reserved </span> &nbsp; &nbsp;<span>Developed by <a href="#" target="_blank" class="wrdbrk text-white">GoBigg</a></span></li>
-				</ul>
+			<div class="col-lg-12 footbox text-center py-2">
+				<div class="roboto text-white smallfnt">Copyright &copy; 2022, Sakthivel Offset Printerss. <span class="wrdbrk">All rights reserved </span> &nbsp; &nbsp;<span>Developed by <a href="#" target="_blank" class="wrdbrk text-white">GoBigg</a></span></div>
 			</div>
 		</div>
 	</div>
 </div>
+<script>
+    $('.nav-link').addClass('text-white');
+    $(window).on("scroll", function() {
+        if($(window).scrollTop()) {
+            $('.mynav').addClass('black');
+		    $('.nav-link').removeClass('text-white');
+		    $('.mynav').removeClass('black1');
+        }
+        else {
+            $('.mynav').addClass('black1');
+            $('.nav-link').addClass('text-white');
+		    $('.mynav').removeClass('black');
+        }
+      })
+</script>
 <script>
 	new WOW().init();
 
